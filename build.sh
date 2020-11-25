@@ -72,7 +72,7 @@ export tag=$( echo "$(date +%Y%m%d%H%M)-${zip_name}" | sed 's|.zip||')
 if [ "${buildsuccessful}" == "0" ] && [ ! -z "${finalzip_path}" ]; then
     echo "Build completed successfully in $((BUILD_DIFF / 60)) minute(s) and $((BUILD_DIFF % 60)) seconds"
 
-  echo "Uploading to Sourceforge"
+  echo "Uploading to Sourceforge "${sourceforgeprojekt}/${sourceforgefolder}""
 
     scp "${finalzip_path}" "${sourceforgeuser}@frs.sourceforge.net:/home/frs/project/${sourceforgeprojekt}/${sourceforgefolder}"
 
