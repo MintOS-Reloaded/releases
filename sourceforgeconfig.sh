@@ -2,6 +2,6 @@
 
 # Jenkins or PC need a Vaild SSH key
 
-export sourceforgeuser="kiam001"
-export sourceforgeprojekt="kiam001-build-roms"
-export sourceforgefolder="jenkins"
+export sourceforgeuser="sirrgb"
+export sourceforgeprojekt="sirrgb-roms"
+export sourceforgefolder="Cedric/Mint_OS"
