@@ -132,6 +132,7 @@ Download incremental update: ["incremental_ota_update.zip"]("https://github.com/
 
 Download ROM via Github: ["${zip_name}"]("https://github.com/${release_repo}/releases/download/${tag}/${zip_name}")
 Download ROM via Sourceforge: ["${zip_name}"]("https://sourceforge.net/projects/${sourceforgeprojekt}/files/${sourceforgefolder}/${zip_name}/download")"
+        fi
     fi
 curl --data parse_mode=HTML --data chat_id=$TELEGRAM_CHAT --data sticker=CAADBQADGgEAAixuhBPbSa3YLUZ8DBYE --request POST https://api.telegram.org/bot$TELEGRAM_TOKEN/sendSticker
 
