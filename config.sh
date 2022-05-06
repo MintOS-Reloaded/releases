@@ -26,6 +26,6 @@ export ccache_size=""
 
 export jenkins="false"
 
-export release_repo="MintOS-Reloaded/releases"
+export release_repo="MintOS-Revived/releases"
 
 export timezone="UTC"
