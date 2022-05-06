@@ -16,6 +16,8 @@ cores=$(nproc --all)
 if [ "${cores}" -gt "8" ]; then
     cores=8
 fi
+repo forall -vc "git reset --hard"
+repo forall -vc "git clean -fd"
 repo sync --force-sync --fail-fast --no-tags --no-clone-bundle --optimized-fetch --prune "-j${cores}" -c -v
 syncsuccessful="${?}"
 SYNC_END=$(date +"%s")
