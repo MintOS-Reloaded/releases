@@ -3,13 +3,13 @@
 export GITHUB_USER="SirRGB"
 export GITHUB_EMAIL="sirrgb@amyrom.ml"
 
-export device=""
+export device="cedric"
 
 export ROM="Mint OS"
 export ROM_DIR="${WORKSPACE}/../Min10"
 export ROM_VERSION="2.1"
 export official="false"
-export local_manifest_url=""
+export local_manifest_url="https://raw.githubusercontent.com/SirRGB/local_manifests/main/cedric/A10Lineage.xml"
 export manifest_url="https://github.com/MintOS-Revived/android"
 export rom_vendor_name="lineage"
 export branch="Mint2"
