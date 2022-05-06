@@ -19,6 +19,8 @@ export clean="installclean"
 export generate_incremental="false"
 export upload_recovery="false"
 
+export WITH_GAPPS="true"
+export TARGET_GAPPS_ARCH="arm64"
 export TARGET_UNOFFICIAL_BUILD_ID="Mint-v$ROM_VERSION"
 
 export ccache="false"
