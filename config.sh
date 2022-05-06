@@ -7,7 +7,7 @@ export device=""
 
 export ROM="Mint OS"
 export ROM_DIR="${WORKSPACE}/../Min10"
-export ROM_VERSION="2.0"
+export ROM_VERSION="2.1"
 export official="false"
 export local_manifest_url=""
 export manifest_url="https://github.com/MintOS-Revived/android"
@@ -18,6 +18,8 @@ export buildtype="user"
 export clean="installclean"
 export generate_incremental="false"
 export upload_recovery="false"
+
+export TARGET_UNOFFICIAL_BUILD_ID="Mint-v$ROM_VERSION"
 
 export ccache="false"
 export ccache_size=""
