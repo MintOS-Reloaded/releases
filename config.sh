@@ -7,7 +7,7 @@ export device="griffin"
 
 export ROM="Mint OS"
 export ROM_DIR="${WORKSPACE}/../Min10"
-export ROM_VERSION="2.1"
+export ROM_VERSION="2.1-GAPPS"
 export official="false"
 export local_manifest_url="https://raw.githubusercontent.com/SirRGB/local_manifests/main/griffin/A10Lineage.xml"
 export manifest_url="https://github.com/MintOS-Revived/android"
@@ -19,6 +19,7 @@ export clean="installclean"
 export generate_incremental="false"
 export upload_recovery="false"
 
+export WITH_GAPPS="true"
 export TARGET_UNOFFICIAL_BUILD_ID="Mint-v$ROM_VERSION"
 
 export ccache="false"
